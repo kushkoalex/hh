@@ -4,5 +4,9 @@ $(function() {
         u;
 
     hamster = new hh.Hamster();
-    hamster.omnomnom();
+
+    hamster.omnomnom().then(hamster.omnomnom1, function() {
+        console.log('error');
+    });
+
 });
