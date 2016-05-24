@@ -1,5 +1,8 @@
-$(function () {
-  var hh = HH,
-  hamster = new hh.Hamster();
-  hamster.omnomnom();
+$(function() {
+    var hh = HH,
+        hamster,
+        u;
+
+    hamster = new hh.Hamster();
+    hamster.omnomnom();
 });
