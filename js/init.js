@@ -1,3 +1,3 @@
-(function (global) {
-  global.hh = {};
-})(this);
+$(function () {
+  var hh = HH;
+})

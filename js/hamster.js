@@ -1,14 +1,10 @@
-hh.Hamster = function() {
-  function aa() {
+HH.Hamster = function() {
+    var hh = this;
 
-  }
+    this.omnomnom = function() {
+        console.log(this);
+    }
 
-  this.omnomnom = function(){
-    var self = this;
-    setTimeout(function(){
-      console.log(self);
-    },1000);
 
-    console.log(this);
-  }
+
 }
