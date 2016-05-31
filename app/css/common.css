@@ -3,3 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+.hamster{
+  display: inline-block;
+  margin: 10px;
+  background-color: #f00;
+  width: 100px;
+  height: 100px;
+}
